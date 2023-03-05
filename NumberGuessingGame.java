@@ -8,7 +8,7 @@ public class NumberGuessingGame {
     public void menu(ArrayList<Integer> scoreBoard) {
         NumberGuessingGame methodChange = new NumberGuessingGame();
         Scanner input = new Scanner(System.in);
-        System.out.println("Welcome to the number game");
+        System.out.println("Welcome to the Number Guessing Game");
         System.out.println("1) Play the Game");
         System.out.println("2) Score Board");
         System.out.println("3) Exit the game");
