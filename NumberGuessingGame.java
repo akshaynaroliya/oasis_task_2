@@ -8,12 +8,11 @@ public class NumberGuessingGame {
     public void menu(ArrayList<Integer> scoreBoard) {
         NumberGuessingGame methodChange = new NumberGuessingGame();
         Scanner input = new Scanner(System.in);
-        System.out.println("--------------------");
         System.out.println("Welcome to the number game");
         System.out.println("1) Play the Game");
         System.out.println("2) Score Board");
         System.out.println("3) Exit the game");
-        System.out.println("--------------------");
+        System.out.println("");
         try {
             System.out.print("What action would you like to do from the above actions? ");
             int menuOption = input.nextInt();
